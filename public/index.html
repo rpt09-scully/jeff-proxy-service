@@ -154,15 +154,18 @@
   <script src="/lib/react.development.js"></script>
   <script src="/lib/react-dom.development.js"></script>
   <script src="http://localhost:3001/app.js"></script>
-  <script src="http://localhost:3002/app.js"></script>
-  <script src="http://localhost:3003/app.js"></script>
-  <script src="http://localhost:3004/app.js"></script>
+  <!-- 
+    <script src="http://localhost:3002/app.js"></script>
+    <script src="http://localhost:3003/app.js"></script>
+    <script src="http://localhost:3004/app.js"></script>
+   -->
+  
   <!-- see: https://reactjs.org/docs/react-without-jsx.html -->
   <script>
-    ReactDOM.render(React.createElement(NT.TrailService.Banner), 
+    ReactDOM.render(React.createElement(Banner), 
       document.getElementById('9Trails.TrailService.Banner')
     );
-    ReactDOM.render(React.createElement(NT.TrailService.TrailDescription), 
+    ReactDOM.render(React.createElement(TrailDescription), 
       document.getElementById('9Trails.TrailService.TrailDescription')
     );
   </script>

@@ -1,0 +1,16 @@
+{
+  "name": "ninetrails-fec-proxy",
+  "version": "0.0.1",
+  "description": "Proxy for the Team Scully 9Trails project",
+  "author": "Jeff Chasin",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./server.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "morgan": "^1.9.0",
+    "express": "^4.16.2"
+  }
+}
